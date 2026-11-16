@@ -1,0 +1,14 @@
+rule,support,confidence,lift,leverage,conviction
+Additional_Driver  ->  Child_Seat,0.0802,0.6446,4.1184,0.0607,2.3736
+Child_Seat  ->  Additional_Driver,0.0802,0.5121,4.1184,0.0607,1.7946
+Roof_Carrier  ->  Child_Seat,0.0524,0.5813,3.7136,0.0383,2.0144
+Chauffeur  ->  Full_Insurance,0.0582,0.6093,3.3345,0.0407,2.0918
+"FASTag, Fuel_Prepaid  ->  Roadside_Assistance",0.0577,0.5508,1.9659,0.0284,1.6026
+"Fuel_Prepaid, Roadside_Assistance  ->  FASTag",0.0577,0.7008,1.9282,0.0278,2.1276
+FASTag  ->  Roadside_Assistance,0.1932,0.5315,1.8967,0.0913,1.5363
+Roadside_Assistance  ->  FASTag,0.1932,0.6894,1.8967,0.0913,2.0493
+Airport_Pickup  ->  WiFi_Hotspot,0.1543,0.5683,1.8724,0.0719,1.6133
+WiFi_Hotspot  ->  Airport_Pickup,0.1543,0.5084,1.8724,0.0719,1.4819
+Fuel_Prepaid  ->  FASTag,0.1048,0.5646,1.5534,0.0373,1.462
+Additional_Driver  ->  FASTag,0.0697,0.5607,1.5427,0.0245,1.449
+Child_Seat  ->  FASTag,0.085,0.5433,1.4947,0.0281,1.3937

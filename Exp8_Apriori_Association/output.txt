@@ -1,0 +1,90 @@
+Rentals: 5000 | Rentals with at least one add-on: 4504
+
+First five baskets:
+  R00001: ['Doorstep_Delivery', 'WiFi_Hotspot']
+  R00002: ['WiFi_Hotspot']
+  R00003: ['Airport_Pickup', 'WiFi_Hotspot']
+  R00004: ['Doorstep_Delivery', 'WiFi_Hotspot']
+  R00005: ['WiFi_Hotspot']
+
+Transaction matrix shape: (4504, 12)
+   Additional_Driver  Airport_Pickup  Chauffeur  Child_Seat  Doorstep_Delivery  FASTag  Fuel_Prepaid  Full_Insurance  GPS_Navigation  Roadside_Assistance  Roof_Carrier  WiFi_Hotspot
+0                  0               0          0           0                  1       0             0               0               0                    0             0             1
+1                  0               0          0           0                  0       0             0               0               0                    0             0             1
+2                  0               1          0           0                  0       0             0               0               0                    0             0             1
+3                  0               0          0           0                  1       0             0               0               0                    0             0             1
+4                  0               0          0           0                  0       0             0               0               0                    0             0             1
+
+=== Add-on frequency ===
+                     count  support
+FASTag                1637   0.3635
+WiFi_Hotspot          1367   0.3035
+Roadside_Assistance   1262   0.2802
+Airport_Pickup        1223   0.2715
+GPS_Navigation        1220   0.2709
+Fuel_Prepaid           836   0.1856
+Full_Insurance         823   0.1827
+Child_Seat             705   0.1565
+Doorstep_Delivery      676   0.1501
+Additional_Driver      560   0.1243
+Chauffeur              430   0.0955
+Roof_Carrier           406   0.0901
+
+=== Apriori (own implementation) ===
+  level 1: 12 candidates, 12 frequent
+  level 2: 66 candidates, 21 frequent
+  level 3: 15 candidates, 1 frequent
+Frequent itemsets found: 34
+
+=== Apriori (mlxtend) ===
+Frequent itemsets found: 34
+Same itemsets as own implementation: True
+length
+1    12
+2    21
+3     1
+
+Frequent itemsets with two or more add-ons:
+                                 itemsets  support
+              FASTag, Roadside_Assistance   0.1932
+             Airport_Pickup, WiFi_Hotspot   0.1543
+                     FASTag, Fuel_Prepaid   0.1048
+                       Child_Seat, FASTag   0.0850
+             GPS_Navigation, WiFi_Hotspot   0.0826
+        Fuel_Prepaid, Roadside_Assistance   0.0824
+            Additional_Driver, Child_Seat   0.0802
+                   FASTag, GPS_Navigation   0.0753
+           Airport_Pickup, GPS_Navigation   0.0746
+                     FASTag, WiFi_Hotspot   0.0739
+                   Airport_Pickup, FASTag   0.0722
+                Additional_Driver, FASTag   0.0697
+          Child_Seat, Roadside_Assistance   0.0655
+        Roadside_Assistance, WiFi_Hotspot   0.0626
+                Chauffeur, Full_Insurance   0.0582
+      GPS_Navigation, Roadside_Assistance   0.0577
+FASTag, Fuel_Prepaid, Roadside_Assistance   0.0577
+      Airport_Pickup, Roadside_Assistance   0.0562
+                   FASTag, Full_Insurance   0.0562
+   Additional_Driver, Roadside_Assistance   0.0537
+        Doorstep_Delivery, Full_Insurance   0.0528
+                 Child_Seat, Roof_Carrier   0.0524
+
+=== Association rules (confidence >= 0.5, lift > 1) ===
+Number of rules: 13
+                                         rule  support  confidence   lift
+            Additional_Driver  ->  Child_Seat   0.0802      0.6446 4.1184
+            Child_Seat  ->  Additional_Driver   0.0802      0.5121 4.1184
+                 Roof_Carrier  ->  Child_Seat   0.0524      0.5813 3.7136
+                Chauffeur  ->  Full_Insurance   0.0582      0.6093 3.3345
+FASTag, Fuel_Prepaid  ->  Roadside_Assistance   0.0577      0.5508 1.9659
+Fuel_Prepaid, Roadside_Assistance  ->  FASTag   0.0577      0.7008 1.9282
+              FASTag  ->  Roadside_Assistance   0.1932      0.5315 1.8967
+              Roadside_Assistance  ->  FASTag   0.1932      0.6894 1.8967
+             Airport_Pickup  ->  WiFi_Hotspot   0.1543      0.5683 1.8724
+             WiFi_Hotspot  ->  Airport_Pickup   0.1543      0.5084 1.8724
+                     Fuel_Prepaid  ->  FASTag   0.1048      0.5646 1.5534
+                Additional_Driver  ->  FASTag   0.0697      0.5607 1.5427
+                       Child_Seat  ->  FASTag   0.0850      0.5433 1.4947
+
+Strongest rule by lift: Additional_Driver  ->  Child_Seat
+  support 0.0802, confidence 0.6446, lift 4.1184
