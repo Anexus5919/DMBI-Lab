@@ -286,10 +286,10 @@ def make_rentals(branches, cars, customers):
 
         # Late return: longer, outstation, weekend-ending trips by younger drivers
         ret = d + pd.Timedelta(days=int(rdays))
-        z = (-2.9 + 0.24 * rdays + 1.0 * (trip == "Outstation")
-             + 1.35 * (prof == "young") - 1.1 * (channel == "Corporate")
-             + 0.65 * (ret.day_of_week == 6) + 0.30 * peak - 0.6 * (ctype == "Luxury")
-             + rng.normal(0, 0.4))
+        z = (-4.5 + 0.42 * rdays + 1.8 * (trip == "Outstation")
+             + 2.3 * (prof == "young") - 2.0 * (channel == "Corporate")
+             + 1.0 * (ret.day_of_week == 6) + 0.5 * peak - 1.0 * (ctype == "Luxury")
+             + rng.normal(0, 0.5))
         late = rng.random() < 1 / (1 + np.exp(-z))
         late_fee = 0
         if late:
