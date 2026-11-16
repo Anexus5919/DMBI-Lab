@@ -78,9 +78,11 @@ path in the Read CSV operator.
 | Experiment | Result |
 |---|---|
 | 2 | 5,045 raw rows to 5,000 clean rows; 45 duplicates, 610 missing cells and 14 impossible values fixed |
+| 4 | RapidMiner: Decision Tree 81.90% accuracy, Naive Bayes 78.30% |
 | 5 | Decision Tree 81.4% accuracy (custom tree identical to scikit-learn); custom Naive Bayes 78.4% |
 | 6 | 4 customer segments (silhouette 0.383): young budget, family road trips, premium, business |
-| 8, 9 | 34 frequent itemsets, 13 rules; strongest: Additional_Driver -> Child_Seat, lift 4.12 |
+| 7 | RapidMiner k-means finds the same 4 segments (Davies-Bouldin 1.040 vs 1.041 in Python) |
+| 8, 9 | 34 frequent itemsets, 13 rules in both Python and RapidMiner; strongest: Additional_Driver -> Child_Seat, lift 4.12 |
 | 10 | Six-page dashboard with roll-up, drill-down, slice, dice and pivot on the warehouse |
 
 ## CA Submissions (Group 09)
