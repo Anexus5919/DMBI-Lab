@@ -1,0 +1,92 @@
+Dataset shape: (5000, 29)
+
+Target distribution:
+late_return
+No     3811
+Yes    1189
+
+Training rows: 4000 | Testing rows: 1000
+
+=== Decision Tree (scikit-learn) ===
+Accuracy: 81.40%
+              precision    recall  f1-score   support
+
+     On time     0.8429    0.9291    0.8839       762
+        Late     0.6625    0.4454    0.5327       238
+
+    accuracy                         0.8140      1000
+   macro avg     0.7527    0.6873    0.7083      1000
+weighted avg     0.7999    0.8140    0.8003      1000
+
+Tree rules (first 3 levels):
+|--- km_driven <= 716.00
+|   |--- customer_age <= 28.50
+|   |   |--- trip_type <= 0.50
+|   |   |   |--- truncated branch of depth 3
+|   |   |--- trip_type >  0.50
+|   |   |   |--- truncated branch of depth 3
+|   |--- customer_age >  28.50
+|   |   |--- booking_channel <= 0.50
+|   |   |   |--- truncated branch of depth 3
+|   |   |--- booking_channel >  0.50
+|   |   |   |--- truncated branch of depth 3
+|--- km_driven >  716.00
+|   |--- rental_days <= 6.50
+|   |   |--- car_type <= 0.50
+|   |   |   |--- truncated branch of depth 2
+|   |   |--- car_type >  0.50
+|   |   |   |--- truncated branch of depth 3
+|   |--- rental_days >  6.50
+|   |   |--- booking_channel <= 1.50
+|   |   |   |--- truncated branch of depth 3
+|   |   |--- booking_channel >  1.50
+|   |   |   |--- truncated branch of depth 3
+
+
+=== Decision Tree (custom function) ===
+Accuracy: 81.40%
+              precision    recall  f1-score   support
+
+     On time     0.8429    0.9291    0.8839       762
+        Late     0.6625    0.4454    0.5327       238
+
+    accuracy                         0.8140      1000
+   macro avg     0.7527    0.6873    0.7083      1000
+weighted avg     0.7999    0.8140    0.8003      1000
+
+Root split of the custom tree: km_driven <= 716.00
+Predictions identical to scikit-learn tree: 100.00% of test rows
+
+=== Naive Bayes (scikit-learn GaussianNB) ===
+Accuracy: 77.60%
+              precision    recall  f1-score   support
+
+     On time     0.8280    0.8911    0.8584       762
+        Late     0.5389    0.4076    0.4641       238
+
+    accuracy                         0.7760      1000
+   macro avg     0.6835    0.6493    0.6613      1000
+weighted avg     0.7592    0.7760    0.7646      1000
+
+
+=== Naive Bayes (custom function) ===
+Accuracy: 78.40%
+              precision    recall  f1-score   support
+
+     On time     0.8430    0.8806    0.8614       762
+        Late     0.5539    0.4748    0.5113       238
+
+    accuracy                         0.7840      1000
+   macro avg     0.6984    0.6777    0.6863      1000
+weighted avg     0.7742    0.7840    0.7780      1000
+
+Prior probabilities learned by the custom model: {'On time': 0.7622, 'Late': 0.2377}
+P(trip_type = Outstation | Late)    = 0.7408
+P(trip_type = Outstation | On time) = 0.3573
+
+=== Summary on the 1,000 test rentals ===
+                                Model  Accuracy  Precision (Late)  Recall (Late)  F1 (Late)
+         Decision Tree (scikit-learn)      81.4             66.25          44.54      53.27
+      Decision Tree (custom function)      81.4             66.25          44.54      53.27
+Naive Bayes (scikit-learn GaussianNB)      77.6             53.89          40.76      46.41
+        Naive Bayes (custom function)      78.4             55.39          47.48      51.13
