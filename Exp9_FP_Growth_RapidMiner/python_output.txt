@@ -1,0 +1,35 @@
+Transactions: 4504 | Items: 12
+
+Item order used to build the FP-tree:
+FASTag                 1637
+WiFi_Hotspot           1367
+Roadside_Assistance    1262
+Airport_Pickup         1223
+GPS_Navigation         1220
+Fuel_Prepaid            836
+Full_Insurance          823
+Child_Seat              705
+Doorstep_Delivery       676
+Additional_Driver       560
+Chauffeur               430
+Roof_Carrier            406
+
+FP-Growth: 34 frequent itemsets in 10.9 ms
+Apriori  : 34 frequent itemsets in 2.8 ms
+Same itemsets: True
+
+Rules with confidence >= 0.5 and lift > 1: 13
+                         premises          conclusion  support  confidence   lift
+Fuel_Prepaid, Roadside_Assistance              FASTag   0.0577      0.7008 1.9282
+              Roadside_Assistance              FASTag   0.1932      0.6894 1.8967
+                Additional_Driver          Child_Seat   0.0802      0.6446 4.1184
+                        Chauffeur      Full_Insurance   0.0582      0.6093 3.3345
+                     Roof_Carrier          Child_Seat   0.0524      0.5813 3.7136
+                   Airport_Pickup        WiFi_Hotspot   0.1543      0.5683 1.8724
+                     Fuel_Prepaid              FASTag   0.1048      0.5646 1.5534
+                Additional_Driver              FASTag   0.0697      0.5607 1.5427
+             FASTag, Fuel_Prepaid Roadside_Assistance   0.0577      0.5508 1.9659
+                       Child_Seat              FASTag   0.0850      0.5433 1.4947
+                           FASTag Roadside_Assistance   0.1932      0.5315 1.8967
+                       Child_Seat   Additional_Driver   0.0802      0.5121 4.1184
+                     WiFi_Hotspot      Airport_Pickup   0.1543      0.5084 1.8724
