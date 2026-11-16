@@ -1,0 +1,73 @@
+Original shape: (5045, 23)
+                                                0                            1                            2
+rental_id                                  R00001                       R00002                       R00003
+rental_date                            2024-01-01                   2024-01-01                   2024-01-01
+return_date                            2024-01-04                   2024-01-03                   2024-01-04
+customer_id                                 C0289                        C0675                        C0647
+customer_age                                 42.0                         24.0                         42.0
+customer_city                           New Delhi                  Navi Mumbai                       Mumbai
+branch_id                                    BR07                         BR07                         BR12
+branch_city                             New Delhi                    New Delhi                      Chennai
+car_id                                    CAR0182                      CAR0204                      CAR0334
+brand                                     Hyundai                Mercedes-Benz                      Hyundai
+car_model                                     i20                      C-Class                        Verna
+car_type                                Hatchback                       Luxury                        Sedan
+fuel_type                                  Petrol                       Petrol                       Petrol
+booking_channel                         Corporate                    Corporate                      Website
+trip_type                                   Local                        Local                        Local
+rental_days                                     3                            2                            3
+km_driven                                   291.0                        245.0                        333.0
+daily_rate                                   1880                        10490                         3040
+addons           Doorstep_Delivery;Airport_Pickup  Airport_Pickup;WiFi_Hotspot  Full_Insurance;WiFi_Hotspot
+rental_amount                                6840                        21930                        10270
+late_return                                    No                           No                          Yes
+late_fee                                        0                            0                         1520
+customer_rating                               4.0                          5.0                          4.0
+
+Missing values per column:
+customer_age       153
+fuel_type           75
+booking_channel     51
+km_driven          126
+addons             478
+customer_rating    203
+(an empty addons cell means no add-ons were taken, so it is not really missing)
+
+Exact duplicate rows: 45
+Repeated rental_id values: 45
+
+Shape after removing duplicates: (5000, 23)
+
+car_type values before cleaning: [' Hatchback ', ' Luxury ', ' MUV ', ' SUV ', ' Sedan ', 'HATCHBACK', 'Hatchback', 'Hatchback ', 'LUXURY', 'Luxury', 'Luxury ', 'MUV', 'Muv ', 'SEDAN', 'SUV', 'Sedan', 'Sedan ', 'Suv ', 'hatchback', 'luxury', 'muv', 'sedan', 'suv']
+car_type values after cleaning:  ['Hatchback', 'Luxury', 'MUV', 'SUV', 'Sedan']
+booking_channel values after cleaning: ['Corporate', 'Mobile App', 'Walk-in', 'Website']
+
+Invalid ages (outside 18 to 80): 7 -> [0, 7, 150]
+Invalid km_driven (negative or over 1000 km a day): 7
+
+Missing values after imputation: 0
+
+New columns: rental_month, rental_weekday, return_weekend, season, km_per_day, addon_count
+Saved rental_car_clean.csv with shape (5000, 29)
+
+Shape after one-hot encoding: (5000, 46)
+
+Mean and standard deviation after scaling:
+                 mean  std
+customer_age     -0.0  1.0
+rental_days       0.0  1.0
+km_driven         0.0  1.0
+daily_rate        0.0  1.0
+rental_amount    -0.0  1.0
+late_fee         -0.0  1.0
+customer_rating   0.0  1.0
+km_per_day       -0.0  1.0
+addon_count      -0.0  1.0
+
+Saved rental_car_model_ready.csv with shape (5000, 46)
+   customer_age  rental_days  km_driven  daily_rate  rental_amount  late_return  late_fee  customer_rating
+0         0.778        0.246     -0.138      -0.767         -0.490            0    -0.369           -0.219
+1        -1.124       -0.332     -0.255       2.347          0.973            0    -0.369            1.234
+2         0.778        0.246     -0.031      -0.347         -0.157            1     0.684           -0.219
+3        -0.490       -0.911     -0.710      -0.231         -0.687            0    -0.369           -0.219
+4        -0.384       -0.911     -0.618      -0.463         -0.676            0    -0.369            1.234
