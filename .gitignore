@@ -5,3 +5,4 @@ __pycache__/
 _build/
 ~$*
 .streamlit/secrets.toml
+Exp10_BI_Dashboard/rental_dw.db
