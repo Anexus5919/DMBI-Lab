@@ -1,0 +1,71 @@
+Shape: (5000, 29)
+
+Columns: ['rental_id', 'rental_date', 'return_date', 'customer_id', 'customer_age', 'customer_city', 'branch_id', 'branch_city', 'car_id', 'brand', 'car_model', 'car_type', 'fuel_type', 'booking_channel', 'trip_type', 'rental_days', 'km_driven', 'daily_rate', 'addons', 'rental_amount', 'late_return', 'late_fee', 'customer_rating', 'rental_month', 'rental_weekday', 'return_weekend', 'season', 'km_per_day', 'addon_count']
+
+Missing values in the whole table: 0
+Date range: 2024-01-01 to 2025-12-31
+
+=== Central tendency (numeric) ===
+                     Mean  Median
+customer_age        34.64    33.0
+rental_days          2.57     2.0
+km_driven          345.03   200.0
+daily_rate        4000.12  3260.0
+rental_amount    11894.12  8230.0
+late_fee           532.07     0.0
+customer_rating      4.15     4.0
+
+=== Mode (categorical) ===
+car_type         Sedan        (1445 rentals, 28.9%)
+fuel_type        Petrol       (2433 rentals, 48.7%)
+booking_channel  Mobile App   (2272 rentals, 45.4%)
+trip_type        Local        (2815 rentals, 56.3%)
+branch_city      Mumbai       (1231 rentals, 24.6%)
+brand            Maruti Suzuki (1009 rentals, 20.2%)
+
+=== Dispersion ===
+                  Std Dev       Variance   Min    Max  Range       IQR
+customer_age         9.46          89.55    21     61     40     16.00
+rental_days          1.73           2.99     1     12     11      2.00
+km_driven          391.58     153,331.02    13   3136   3123    276.00
+daily_rate       2,765.89   7,650,152.28  1530  14810  13280  2,140.00
+rental_amount   10,316.40 106,428,120.81  1570  73650  72080 10,390.00
+late_fee         1,443.79   2,084,527.51     0  19740  19740      0.00
+customer_rating      0.69           0.47     1      5      4      1.00
+
+Values outside 1.5 x IQR:
+customer_age          0
+rental_days         209
+km_driven           550
+daily_rate          494
+rental_amount       285
+late_fee           1127
+customer_rating      40
+
+=== Pearson correlation ===
+                 customer_age  rental_days  km_driven  daily_rate  rental_amount  late_fee  customer_rating  km_per_day  addon_count
+customer_age             1.00         0.28       0.25        0.44           0.47      0.03             0.03        0.12         0.27
+rental_days              0.28         1.00       0.83        0.03           0.69      0.16            -0.05        0.38         0.22
+km_driven                0.25         0.83       1.00        0.00           0.55      0.17            -0.04        0.76         0.31
+daily_rate               0.44         0.03       0.00        1.00           0.65      0.09             0.02       -0.01         0.12
+rental_amount            0.47         0.69       0.55        0.65           1.00      0.17            -0.03        0.26         0.29
+late_fee                 0.03         0.16       0.17        0.09           0.17      1.00            -0.18        0.14         0.06
+customer_rating          0.03        -0.05      -0.04        0.02          -0.03     -0.18             1.00       -0.04        -0.00
+km_per_day               0.12         0.38       0.76       -0.01           0.26      0.14            -0.04        1.00         0.30
+addon_count              0.27         0.22       0.31        0.12           0.29      0.06            -0.00        0.30         1.00
+
+=== Revenue and rate by car type ===
+           rentals  avg_daily_rate  avg_days  revenue_lakh
+car_type                                                  
+SUV           1428          4176.3       2.8         190.3
+Luxury         517         11412.9       2.2         143.3
+Sedan         1445          2894.6       2.1         106.4
+MUV            437          3795.9       5.3          95.1
+Hatchback     1173          1956.4       2.0          59.5
+
+=== Late return rate ===
+trip_type: Local 14.8%, Outstation 32.5%
+booking_channel: Corporate 6.0%, Mobile App 29.2%, Walk-in 34.7%, Website 25.2%
+return_weekend: No 21.4%, Yes 25.0%
+
+Saved 7 figures in figures/
