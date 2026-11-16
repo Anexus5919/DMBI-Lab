@@ -1,0 +1,348 @@
+car_id,branch_id,brand,car_model,car_type,fuel_type,registration_year
+CAR0001,BR01,Maruti Suzuki,Swift,Hatchback,Petrol,2025
+CAR0002,BR01,Maruti Suzuki,Swift,Hatchback,Petrol,2023
+CAR0003,BR01,Maruti Suzuki,Baleno,Hatchback,Petrol,2020
+CAR0004,BR01,Maruti Suzuki,Baleno,Hatchback,Petrol,2023
+CAR0005,BR01,Hyundai,i20,Hatchback,Petrol,2022
+CAR0006,BR01,Hyundai,i20,Hatchback,Petrol,2022
+CAR0007,BR01,Tata,Tiago EV,Hatchback,Electric,2024
+CAR0008,BR01,Tata,Tiago EV,Hatchback,Electric,2019
+CAR0009,BR01,Tata,Altroz,Hatchback,Diesel,2021
+CAR0010,BR01,Tata,Altroz,Hatchback,Diesel,2022
+CAR0011,BR01,Maruti Suzuki,Dzire,Sedan,CNG,2020
+CAR0012,BR01,Maruti Suzuki,Dzire,Sedan,CNG,2025
+CAR0013,BR01,Honda,City,Sedan,Petrol,2025
+CAR0014,BR01,Honda,City,Sedan,Petrol,2021
+CAR0015,BR01,Hyundai,Verna,Sedan,Petrol,2019
+CAR0016,BR01,Hyundai,Verna,Sedan,Petrol,2019
+CAR0017,BR01,Skoda,Slavia,Sedan,Petrol,2020
+CAR0018,BR01,Skoda,Slavia,Sedan,Petrol,2020
+CAR0019,BR01,Hyundai,Creta,SUV,Diesel,2025
+CAR0020,BR01,Kia,Seltos,SUV,Petrol,2025
+CAR0021,BR01,Tata,Nexon EV,SUV,Electric,2022
+CAR0022,BR01,Mahindra,XUV700,SUV,Diesel,2025
+CAR0023,BR01,Mahindra,Thar,SUV,Diesel,2019
+CAR0024,BR01,Mahindra,Scorpio-N,SUV,Diesel,2022
+CAR0025,BR01,Maruti Suzuki,Ertiga,MUV,CNG,2020
+CAR0026,BR01,Kia,Carens,MUV,Petrol,2019
+CAR0027,BR01,Toyota,Innova Crysta,MUV,Diesel,2020
+CAR0028,BR01,Toyota,Fortuner,Luxury,Diesel,2019
+CAR0029,BR01,BMW,3 Series,Luxury,Diesel,2019
+CAR0030,BR01,Audi,Q3,Luxury,Petrol,2021
+CAR0031,BR02,Maruti Suzuki,Swift,Hatchback,Petrol,2021
+CAR0032,BR02,Maruti Suzuki,Swift,Hatchback,Petrol,2019
+CAR0033,BR02,Maruti Suzuki,Baleno,Hatchback,Petrol,2019
+CAR0034,BR02,Maruti Suzuki,Baleno,Hatchback,Petrol,2022
+CAR0035,BR02,Hyundai,i20,Hatchback,Petrol,2020
+CAR0036,BR02,Hyundai,i20,Hatchback,Petrol,2025
+CAR0037,BR02,Tata,Tiago EV,Hatchback,Electric,2020
+CAR0038,BR02,Tata,Tiago EV,Hatchback,Electric,2021
+CAR0039,BR02,Tata,Altroz,Hatchback,Diesel,2019
+CAR0040,BR02,Tata,Altroz,Hatchback,Diesel,2024
+CAR0041,BR02,Maruti Suzuki,Dzire,Sedan,CNG,2019
+CAR0042,BR02,Maruti Suzuki,Dzire,Sedan,CNG,2022
+CAR0043,BR02,Honda,City,Sedan,Petrol,2020
+CAR0044,BR02,Honda,City,Sedan,Petrol,2020
+CAR0045,BR02,Hyundai,Verna,Sedan,Petrol,2025
+CAR0046,BR02,Hyundai,Verna,Sedan,Petrol,2024
+CAR0047,BR02,Skoda,Slavia,Sedan,Petrol,2020
+CAR0048,BR02,Skoda,Slavia,Sedan,Petrol,2020
+CAR0049,BR02,Hyundai,Creta,SUV,Diesel,2020
+CAR0050,BR02,Kia,Seltos,SUV,Petrol,2023
+CAR0051,BR02,Tata,Nexon EV,SUV,Electric,2021
+CAR0052,BR02,Mahindra,XUV700,SUV,Diesel,2020
+CAR0053,BR02,Mahindra,Thar,SUV,Diesel,2022
+CAR0054,BR02,Mahindra,Scorpio-N,SUV,Diesel,2025
+CAR0055,BR02,Maruti Suzuki,Ertiga,MUV,CNG,2020
+CAR0056,BR02,Kia,Carens,MUV,Petrol,2021
+CAR0057,BR02,Toyota,Innova Crysta,MUV,Diesel,2025
+CAR0058,BR02,Toyota,Fortuner,Luxury,Diesel,2021
+CAR0059,BR02,BMW,3 Series,Luxury,Diesel,2024
+CAR0060,BR02,Audi,Q3,Luxury,Petrol,2023
+CAR0061,BR03,Maruti Suzuki,Swift,Hatchback,Petrol,2024
+CAR0062,BR03,Maruti Suzuki,Swift,Hatchback,Petrol,2020
+CAR0063,BR03,Maruti Suzuki,Baleno,Hatchback,Petrol,2020
+CAR0064,BR03,Maruti Suzuki,Baleno,Hatchback,Petrol,2020
+CAR0065,BR03,Hyundai,i20,Hatchback,Petrol,2021
+CAR0066,BR03,Hyundai,i20,Hatchback,Petrol,2020
+CAR0067,BR03,Tata,Tiago EV,Hatchback,Electric,2022
+CAR0068,BR03,Tata,Tiago EV,Hatchback,Electric,2025
+CAR0069,BR03,Tata,Altroz,Hatchback,Diesel,2025
+CAR0070,BR03,Tata,Altroz,Hatchback,Diesel,2022
+CAR0071,BR03,Maruti Suzuki,Dzire,Sedan,CNG,2019
+CAR0072,BR03,Maruti Suzuki,Dzire,Sedan,CNG,2022
+CAR0073,BR03,Honda,City,Sedan,Petrol,2021
+CAR0074,BR03,Honda,City,Sedan,Petrol,2023
+CAR0075,BR03,Hyundai,Verna,Sedan,Petrol,2020
+CAR0076,BR03,Hyundai,Verna,Sedan,Petrol,2021
+CAR0077,BR03,Skoda,Slavia,Sedan,Petrol,2020
+CAR0078,BR03,Skoda,Slavia,Sedan,Petrol,2023
+CAR0079,BR03,Hyundai,Creta,SUV,Diesel,2022
+CAR0080,BR03,Kia,Seltos,SUV,Petrol,2025
+CAR0081,BR03,Tata,Nexon EV,SUV,Electric,2022
+CAR0082,BR03,Mahindra,XUV700,SUV,Diesel,2022
+CAR0083,BR03,Mahindra,Thar,SUV,Diesel,2025
+CAR0084,BR03,Mahindra,Scorpio-N,SUV,Diesel,2021
+CAR0085,BR03,Maruti Suzuki,Ertiga,MUV,CNG,2023
+CAR0086,BR03,Kia,Carens,MUV,Petrol,2022
+CAR0087,BR03,Toyota,Innova Crysta,MUV,Diesel,2024
+CAR0088,BR03,BMW,3 Series,Luxury,Diesel,2022
+CAR0089,BR03,Audi,Q3,Luxury,Petrol,2024
+CAR0090,BR04,Maruti Suzuki,Swift,Hatchback,Petrol,2020
+CAR0091,BR04,Maruti Suzuki,Swift,Hatchback,Petrol,2021
+CAR0092,BR04,Maruti Suzuki,Baleno,Hatchback,Petrol,2024
+CAR0093,BR04,Maruti Suzuki,Baleno,Hatchback,Petrol,2021
+CAR0094,BR04,Hyundai,i20,Hatchback,Petrol,2025
+CAR0095,BR04,Hyundai,i20,Hatchback,Petrol,2023
+CAR0096,BR04,Tata,Tiago EV,Hatchback,Electric,2023
+CAR0097,BR04,Tata,Tiago EV,Hatchback,Electric,2020
+CAR0098,BR04,Tata,Altroz,Hatchback,Diesel,2019
+CAR0099,BR04,Tata,Altroz,Hatchback,Diesel,2023
+CAR0100,BR04,Maruti Suzuki,Dzire,Sedan,CNG,2022
+CAR0101,BR04,Maruti Suzuki,Dzire,Sedan,CNG,2019
+CAR0102,BR04,Honda,City,Sedan,Petrol,2023
+CAR0103,BR04,Honda,City,Sedan,Petrol,2019
+CAR0104,BR04,Hyundai,Verna,Sedan,Petrol,2024
+CAR0105,BR04,Hyundai,Verna,Sedan,Petrol,2024
+CAR0106,BR04,Skoda,Slavia,Sedan,Petrol,2020
+CAR0107,BR04,Skoda,Slavia,Sedan,Petrol,2025
+CAR0108,BR04,Hyundai,Creta,SUV,Diesel,2025
+CAR0109,BR04,Kia,Seltos,SUV,Petrol,2022
+CAR0110,BR04,Tata,Nexon EV,SUV,Electric,2022
+CAR0111,BR04,Mahindra,XUV700,SUV,Diesel,2019
+CAR0112,BR04,Mahindra,Thar,SUV,Diesel,2022
+CAR0113,BR04,Mahindra,Scorpio-N,SUV,Diesel,2019
+CAR0114,BR04,Maruti Suzuki,Ertiga,MUV,CNG,2019
+CAR0115,BR04,Kia,Carens,MUV,Petrol,2023
+CAR0116,BR04,Toyota,Innova Crysta,MUV,Diesel,2020
+CAR0117,BR04,Mercedes-Benz,C-Class,Luxury,Petrol,2025
+CAR0118,BR04,BMW,3 Series,Luxury,Diesel,2021
+CAR0119,BR04,Audi,Q3,Luxury,Petrol,2021
+CAR0120,BR05,Maruti Suzuki,Swift,Hatchback,Petrol,2024
+CAR0121,BR05,Maruti Suzuki,Swift,Hatchback,Petrol,2023
+CAR0122,BR05,Maruti Suzuki,Baleno,Hatchback,Petrol,2020
+CAR0123,BR05,Maruti Suzuki,Baleno,Hatchback,Petrol,2022
+CAR0124,BR05,Hyundai,i20,Hatchback,Petrol,2019
+CAR0125,BR05,Hyundai,i20,Hatchback,Petrol,2025
+CAR0126,BR05,Tata,Tiago EV,Hatchback,Electric,2023
+CAR0127,BR05,Tata,Tiago EV,Hatchback,Electric,2019
+CAR0128,BR05,Tata,Altroz,Hatchback,Diesel,2020
+CAR0129,BR05,Tata,Altroz,Hatchback,Diesel,2020
+CAR0130,BR05,Maruti Suzuki,Dzire,Sedan,CNG,2025
+CAR0131,BR05,Maruti Suzuki,Dzire,Sedan,CNG,2020
+CAR0132,BR05,Honda,City,Sedan,Petrol,2021
+CAR0133,BR05,Honda,City,Sedan,Petrol,2022
+CAR0134,BR05,Hyundai,Verna,Sedan,Petrol,2024
+CAR0135,BR05,Hyundai,Verna,Sedan,Petrol,2023
+CAR0136,BR05,Skoda,Slavia,Sedan,Petrol,2020
+CAR0137,BR05,Skoda,Slavia,Sedan,Petrol,2025
+CAR0138,BR05,Hyundai,Creta,SUV,Diesel,2021
+CAR0139,BR05,Kia,Seltos,SUV,Petrol,2019
+CAR0140,BR05,Tata,Nexon EV,SUV,Electric,2025
+CAR0141,BR05,Mahindra,XUV700,SUV,Diesel,2019
+CAR0142,BR05,Mahindra,Thar,SUV,Diesel,2020
+CAR0143,BR05,Mahindra,Scorpio-N,SUV,Diesel,2022
+CAR0144,BR05,Maruti Suzuki,Ertiga,MUV,CNG,2021
+CAR0145,BR05,Kia,Carens,MUV,Petrol,2021
+CAR0146,BR05,Toyota,Innova Crysta,MUV,Diesel,2025
+CAR0147,BR05,Mercedes-Benz,C-Class,Luxury,Petrol,2020
+CAR0148,BR06,Maruti Suzuki,Swift,Hatchback,Petrol,2020
+CAR0149,BR06,Maruti Suzuki,Swift,Hatchback,Petrol,2025
+CAR0150,BR06,Maruti Suzuki,Baleno,Hatchback,Petrol,2025
+CAR0151,BR06,Maruti Suzuki,Baleno,Hatchback,Petrol,2021
+CAR0152,BR06,Hyundai,i20,Hatchback,Petrol,2019
+CAR0153,BR06,Hyundai,i20,Hatchback,Petrol,2022
+CAR0154,BR06,Tata,Tiago EV,Hatchback,Electric,2022
+CAR0155,BR06,Tata,Tiago EV,Hatchback,Electric,2019
+CAR0156,BR06,Tata,Altroz,Hatchback,Diesel,2020
+CAR0157,BR06,Tata,Altroz,Hatchback,Diesel,2023
+CAR0158,BR06,Maruti Suzuki,Dzire,Sedan,CNG,2020
+CAR0159,BR06,Maruti Suzuki,Dzire,Sedan,CNG,2023
+CAR0160,BR06,Honda,City,Sedan,Petrol,2019
+CAR0161,BR06,Honda,City,Sedan,Petrol,2021
+CAR0162,BR06,Hyundai,Verna,Sedan,Petrol,2020
+CAR0163,BR06,Hyundai,Verna,Sedan,Petrol,2024
+CAR0164,BR06,Skoda,Slavia,Sedan,Petrol,2019
+CAR0165,BR06,Skoda,Slavia,Sedan,Petrol,2021
+CAR0166,BR06,Hyundai,Creta,SUV,Diesel,2019
+CAR0167,BR06,Kia,Seltos,SUV,Petrol,2020
+CAR0168,BR06,Tata,Nexon EV,SUV,Electric,2021
+CAR0169,BR06,Mahindra,XUV700,SUV,Diesel,2025
+CAR0170,BR06,Mahindra,Thar,SUV,Diesel,2023
+CAR0171,BR06,Mahindra,Scorpio-N,SUV,Diesel,2021
+CAR0172,BR06,Maruti Suzuki,Ertiga,MUV,CNG,2020
+CAR0173,BR06,Kia,Carens,MUV,Petrol,2022
+CAR0174,BR06,Toyota,Innova Crysta,MUV,Diesel,2020
+CAR0175,BR06,Toyota,Fortuner,Luxury,Diesel,2020
+CAR0176,BR06,Mercedes-Benz,C-Class,Luxury,Petrol,2024
+CAR0177,BR07,Maruti Suzuki,Swift,Hatchback,Petrol,2020
+CAR0178,BR07,Maruti Suzuki,Swift,Hatchback,Petrol,2024
+CAR0179,BR07,Maruti Suzuki,Baleno,Hatchback,Petrol,2024
+CAR0180,BR07,Maruti Suzuki,Baleno,Hatchback,Petrol,2023
+CAR0181,BR07,Hyundai,i20,Hatchback,Petrol,2025
+CAR0182,BR07,Hyundai,i20,Hatchback,Petrol,2019
+CAR0183,BR07,Tata,Tiago EV,Hatchback,Electric,2020
+CAR0184,BR07,Tata,Tiago EV,Hatchback,Electric,2019
+CAR0185,BR07,Tata,Altroz,Hatchback,Diesel,2023
+CAR0186,BR07,Tata,Altroz,Hatchback,Diesel,2019
+CAR0187,BR07,Maruti Suzuki,Dzire,Sedan,CNG,2023
+CAR0188,BR07,Maruti Suzuki,Dzire,Sedan,CNG,2021
+CAR0189,BR07,Honda,City,Sedan,Petrol,2021
+CAR0190,BR07,Honda,City,Sedan,Petrol,2023
+CAR0191,BR07,Hyundai,Verna,Sedan,Petrol,2021
+CAR0192,BR07,Hyundai,Verna,Sedan,Petrol,2021
+CAR0193,BR07,Skoda,Slavia,Sedan,Petrol,2021
+CAR0194,BR07,Skoda,Slavia,Sedan,Petrol,2025
+CAR0195,BR07,Hyundai,Creta,SUV,Diesel,2022
+CAR0196,BR07,Kia,Seltos,SUV,Petrol,2021
+CAR0197,BR07,Tata,Nexon EV,SUV,Electric,2025
+CAR0198,BR07,Mahindra,XUV700,SUV,Diesel,2025
+CAR0199,BR07,Mahindra,Thar,SUV,Diesel,2025
+CAR0200,BR07,Mahindra,Scorpio-N,SUV,Diesel,2024
+CAR0201,BR07,Maruti Suzuki,Ertiga,MUV,CNG,2020
+CAR0202,BR07,Kia,Carens,MUV,Petrol,2020
+CAR0203,BR07,Toyota,Innova Crysta,MUV,Diesel,2019
+CAR0204,BR07,Mercedes-Benz,C-Class,Luxury,Petrol,2023
+CAR0205,BR07,Audi,Q3,Luxury,Petrol,2024
+CAR0206,BR08,Maruti Suzuki,Swift,Hatchback,Petrol,2024
+CAR0207,BR08,Maruti Suzuki,Swift,Hatchback,Petrol,2020
+CAR0208,BR08,Maruti Suzuki,Baleno,Hatchback,Petrol,2023
+CAR0209,BR08,Maruti Suzuki,Baleno,Hatchback,Petrol,2024
+CAR0210,BR08,Hyundai,i20,Hatchback,Petrol,2019
+CAR0211,BR08,Hyundai,i20,Hatchback,Petrol,2019
+CAR0212,BR08,Tata,Tiago EV,Hatchback,Electric,2020
+CAR0213,BR08,Tata,Tiago EV,Hatchback,Electric,2019
+CAR0214,BR08,Tata,Altroz,Hatchback,Diesel,2019
+CAR0215,BR08,Tata,Altroz,Hatchback,Diesel,2021
+CAR0216,BR08,Maruti Suzuki,Dzire,Sedan,CNG,2024
+CAR0217,BR08,Maruti Suzuki,Dzire,Sedan,CNG,2024
+CAR0218,BR08,Honda,City,Sedan,Petrol,2019
+CAR0219,BR08,Honda,City,Sedan,Petrol,2023
+CAR0220,BR08,Hyundai,Verna,Sedan,Petrol,2022
+CAR0221,BR08,Hyundai,Verna,Sedan,Petrol,2023
+CAR0222,BR08,Skoda,Slavia,Sedan,Petrol,2021
+CAR0223,BR08,Skoda,Slavia,Sedan,Petrol,2019
+CAR0224,BR08,Hyundai,Creta,SUV,Diesel,2020
+CAR0225,BR08,Kia,Seltos,SUV,Petrol,2021
+CAR0226,BR08,Tata,Nexon EV,SUV,Electric,2023
+CAR0227,BR08,Mahindra,XUV700,SUV,Diesel,2024
+CAR0228,BR08,Mahindra,Thar,SUV,Diesel,2025
+CAR0229,BR08,Mahindra,Scorpio-N,SUV,Diesel,2019
+CAR0230,BR08,Maruti Suzuki,Ertiga,MUV,CNG,2019
+CAR0231,BR08,Kia,Carens,MUV,Petrol,2020
+CAR0232,BR08,Toyota,Innova Crysta,MUV,Diesel,2021
+CAR0233,BR08,Toyota,Fortuner,Luxury,Diesel,2021
+CAR0234,BR08,BMW,3 Series,Luxury,Diesel,2025
+CAR0235,BR08,Audi,Q3,Luxury,Petrol,2021
+CAR0236,BR09,Maruti Suzuki,Swift,Hatchback,Petrol,2023
+CAR0237,BR09,Maruti Suzuki,Swift,Hatchback,Petrol,2019
+CAR0238,BR09,Maruti Suzuki,Baleno,Hatchback,Petrol,2024
+CAR0239,BR09,Maruti Suzuki,Baleno,Hatchback,Petrol,2024
+CAR0240,BR09,Hyundai,i20,Hatchback,Petrol,2025
+CAR0241,BR09,Hyundai,i20,Hatchback,Petrol,2023
+CAR0242,BR09,Tata,Tiago EV,Hatchback,Electric,2022
+CAR0243,BR09,Tata,Tiago EV,Hatchback,Electric,2022
+CAR0244,BR09,Tata,Altroz,Hatchback,Diesel,2023
+CAR0245,BR09,Tata,Altroz,Hatchback,Diesel,2020
+CAR0246,BR09,Maruti Suzuki,Dzire,Sedan,CNG,2023
+CAR0247,BR09,Maruti Suzuki,Dzire,Sedan,CNG,2024
+CAR0248,BR09,Honda,City,Sedan,Petrol,2025
+CAR0249,BR09,Honda,City,Sedan,Petrol,2020
+CAR0250,BR09,Hyundai,Verna,Sedan,Petrol,2019
+CAR0251,BR09,Hyundai,Verna,Sedan,Petrol,2019
+CAR0252,BR09,Skoda,Slavia,Sedan,Petrol,2025
+CAR0253,BR09,Skoda,Slavia,Sedan,Petrol,2025
+CAR0254,BR09,Hyundai,Creta,SUV,Diesel,2019
+CAR0255,BR09,Kia,Seltos,SUV,Petrol,2023
+CAR0256,BR09,Tata,Nexon EV,SUV,Electric,2025
+CAR0257,BR09,Mahindra,XUV700,SUV,Diesel,2025
+CAR0258,BR09,Mahindra,Thar,SUV,Diesel,2024
+CAR0259,BR09,Mahindra,Scorpio-N,SUV,Diesel,2020
+CAR0260,BR09,Maruti Suzuki,Ertiga,MUV,CNG,2020
+CAR0261,BR09,Kia,Carens,MUV,Petrol,2020
+CAR0262,BR09,Toyota,Innova Crysta,MUV,Diesel,2025
+CAR0263,BR10,Maruti Suzuki,Swift,Hatchback,Petrol,2019
+CAR0264,BR10,Maruti Suzuki,Swift,Hatchback,Petrol,2022
+CAR0265,BR10,Maruti Suzuki,Baleno,Hatchback,Petrol,2022
+CAR0266,BR10,Maruti Suzuki,Baleno,Hatchback,Petrol,2020
+CAR0267,BR10,Hyundai,i20,Hatchback,Petrol,2025
+CAR0268,BR10,Hyundai,i20,Hatchback,Petrol,2021
+CAR0269,BR10,Tata,Tiago EV,Hatchback,Electric,2020
+CAR0270,BR10,Tata,Tiago EV,Hatchback,Electric,2021
+CAR0271,BR10,Tata,Altroz,Hatchback,Diesel,2020
+CAR0272,BR10,Tata,Altroz,Hatchback,Diesel,2020
+CAR0273,BR10,Maruti Suzuki,Dzire,Sedan,CNG,2021
+CAR0274,BR10,Maruti Suzuki,Dzire,Sedan,CNG,2020
+CAR0275,BR10,Honda,City,Sedan,Petrol,2020
+CAR0276,BR10,Honda,City,Sedan,Petrol,2023
+CAR0277,BR10,Hyundai,Verna,Sedan,Petrol,2024
+CAR0278,BR10,Hyundai,Verna,Sedan,Petrol,2019
+CAR0279,BR10,Skoda,Slavia,Sedan,Petrol,2022
+CAR0280,BR10,Skoda,Slavia,Sedan,Petrol,2022
+CAR0281,BR10,Hyundai,Creta,SUV,Diesel,2025
+CAR0282,BR10,Kia,Seltos,SUV,Petrol,2024
+CAR0283,BR10,Tata,Nexon EV,SUV,Electric,2022
+CAR0284,BR10,Mahindra,XUV700,SUV,Diesel,2023
+CAR0285,BR10,Mahindra,Thar,SUV,Diesel,2019
+CAR0286,BR10,Mahindra,Scorpio-N,SUV,Diesel,2021
+CAR0287,BR10,Maruti Suzuki,Ertiga,MUV,CNG,2023
+CAR0288,BR10,Kia,Carens,MUV,Petrol,2019
+CAR0289,BR10,Toyota,Innova Crysta,MUV,Diesel,2021
+CAR0290,BR11,Maruti Suzuki,Swift,Hatchback,Petrol,2019
+CAR0291,BR11,Maruti Suzuki,Swift,Hatchback,Petrol,2025
+CAR0292,BR11,Maruti Suzuki,Baleno,Hatchback,Petrol,2021
+CAR0293,BR11,Maruti Suzuki,Baleno,Hatchback,Petrol,2020
+CAR0294,BR11,Hyundai,i20,Hatchback,Petrol,2022
+CAR0295,BR11,Hyundai,i20,Hatchback,Petrol,2025
+CAR0296,BR11,Tata,Tiago EV,Hatchback,Electric,2025
+CAR0297,BR11,Tata,Tiago EV,Hatchback,Electric,2021
+CAR0298,BR11,Tata,Altroz,Hatchback,Diesel,2020
+CAR0299,BR11,Tata,Altroz,Hatchback,Diesel,2021
+CAR0300,BR11,Maruti Suzuki,Dzire,Sedan,CNG,2019
+CAR0301,BR11,Maruti Suzuki,Dzire,Sedan,CNG,2020
+CAR0302,BR11,Honda,City,Sedan,Petrol,2022
+CAR0303,BR11,Honda,City,Sedan,Petrol,2022
+CAR0304,BR11,Hyundai,Verna,Sedan,Petrol,2023
+CAR0305,BR11,Hyundai,Verna,Sedan,Petrol,2019
+CAR0306,BR11,Skoda,Slavia,Sedan,Petrol,2022
+CAR0307,BR11,Skoda,Slavia,Sedan,Petrol,2022
+CAR0308,BR11,Hyundai,Creta,SUV,Diesel,2022
+CAR0309,BR11,Kia,Seltos,SUV,Petrol,2024
+CAR0310,BR11,Tata,Nexon EV,SUV,Electric,2025
+CAR0311,BR11,Mahindra,XUV700,SUV,Diesel,2022
+CAR0312,BR11,Mahindra,Thar,SUV,Diesel,2021
+CAR0313,BR11,Mahindra,Scorpio-N,SUV,Diesel,2023
+CAR0314,BR11,Maruti Suzuki,Ertiga,MUV,CNG,2024
+CAR0315,BR11,Kia,Carens,MUV,Petrol,2024
+CAR0316,BR11,Toyota,Innova Crysta,MUV,Diesel,2020
+CAR0317,BR11,Toyota,Fortuner,Luxury,Diesel,2023
+CAR0318,BR11,Mercedes-Benz,C-Class,Luxury,Petrol,2021
+CAR0319,BR11,BMW,3 Series,Luxury,Diesel,2025
+CAR0320,BR12,Maruti Suzuki,Swift,Hatchback,Petrol,2022
+CAR0321,BR12,Maruti Suzuki,Swift,Hatchback,Petrol,2021
+CAR0322,BR12,Maruti Suzuki,Baleno,Hatchback,Petrol,2024
+CAR0323,BR12,Maruti Suzuki,Baleno,Hatchback,Petrol,2025
+CAR0324,BR12,Hyundai,i20,Hatchback,Petrol,2019
+CAR0325,BR12,Hyundai,i20,Hatchback,Petrol,2024
+CAR0326,BR12,Tata,Tiago EV,Hatchback,Electric,2023
+CAR0327,BR12,Tata,Tiago EV,Hatchback,Electric,2024
+CAR0328,BR12,Tata,Altroz,Hatchback,Diesel,2021
+CAR0329,BR12,Tata,Altroz,Hatchback,Diesel,2020
+CAR0330,BR12,Maruti Suzuki,Dzire,Sedan,CNG,2022
+CAR0331,BR12,Maruti Suzuki,Dzire,Sedan,CNG,2022
+CAR0332,BR12,Honda,City,Sedan,Petrol,2023
+CAR0333,BR12,Honda,City,Sedan,Petrol,2025
+CAR0334,BR12,Hyundai,Verna,Sedan,Petrol,2020
+CAR0335,BR12,Hyundai,Verna,Sedan,Petrol,2022
+CAR0336,BR12,Skoda,Slavia,Sedan,Petrol,2020
+CAR0337,BR12,Skoda,Slavia,Sedan,Petrol,2025
+CAR0338,BR12,Hyundai,Creta,SUV,Diesel,2020
+CAR0339,BR12,Kia,Seltos,SUV,Petrol,2025
+CAR0340,BR12,Tata,Nexon EV,SUV,Electric,2022
+CAR0341,BR12,Mahindra,XUV700,SUV,Diesel,2021
+CAR0342,BR12,Mahindra,Thar,SUV,Diesel,2019
+CAR0343,BR12,Mahindra,Scorpio-N,SUV,Diesel,2019
+CAR0344,BR12,Maruti Suzuki,Ertiga,MUV,CNG,2022
+CAR0345,BR12,Kia,Carens,MUV,Petrol,2024
+CAR0346,BR12,Toyota,Innova Crysta,MUV,Diesel,2020
+CAR0347,BR12,BMW,3 Series,Luxury,Diesel,2022
