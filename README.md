@@ -4,9 +4,10 @@ Data Mining and Business Intelligence lab work, Semester V, 2026-27.
 
 **Adarsh Singh**, Roll No. 52, D15A/C, VESIT
 
-All ten experiments use one topic, a Rental Car Management System. The data warehouse designed in
+Experiments 1 to 9 use one topic, a Rental Car Management System. The data warehouse designed in
 Experiment 1 is the base for the dataset, and every later experiment builds on the output of the one
-before it. The CA submissions (group work, different topics) are included at the end.
+before it. Experiment 10 is the mini project, which is the group's CA2 project (BlackSpot Miner). The CA
+submissions are included at the end.
 
 ## Experiments
 
@@ -21,7 +22,7 @@ before it. The CA submissions (group work, different topics) are included at the
 | 7 | K-Means in RapidMiner | [Exp7_KMeans_RapidMiner](Exp7_KMeans_RapidMiner) | `customer_kmeans.rmp`, data, report |
 | 8 | Apriori in Python | [Exp8_Apriori_Association](Exp8_Apriori_Association) | Add-on basket mining, own Apriori and mlxtend, report |
 | 9 | FP-Growth in RapidMiner | [Exp9_FP_Growth_RapidMiner](Exp9_FP_Growth_RapidMiner) | `addon_fpgrowth.rmp`, Python cross-check, report |
-| 10 | BI Dashboard (mini project) | [Exp10_BI_Dashboard](Exp10_BI_Dashboard) | Streamlit app, SQLite warehouse, screenshots, report |
+| 10 | Mini Project (CA2): BlackSpot Miner | [Exp10_Mini_Project](Exp10_Mini_Project) | Report on the CA2 mini project; code, figures and results are in [CA2_Mini_Project](CA2_Mini_Project) |
 
 Each folder has the report as both `.docx` and `.pdf`.
 
@@ -43,7 +44,6 @@ Exp 1 schema -> dataset -> Exp 2 clean data -> Exp 3 EDA
                                             -> Exp 4, 5 late return classification
                                             -> Exp 6 customer profiles -> Exp 7
                                             -> Exp 8 add-on transactions -> Exp 9
-                                            -> Exp 10 warehouse and dashboard
 ```
 
 ## Running the code
@@ -61,14 +61,6 @@ cd Exp5_Classification_Python
 python classification.py
 ```
 
-Dashboard (Experiment 10): double-click `Exp10_BI_Dashboard/run_app.bat`, or
-
-```
-cd Exp10_BI_Dashboard
-python build_warehouse.py
-streamlit run app.py
-```
-
 RapidMiner experiments (4, 7, 9): open Altair AI Studio, use File > Import Process and pick the `.rmp`
 file in the folder. If the repository is not at `C:\Users\ANEXUS\Desktop\DMBI-Lab`, update the file
 path in the Read CSV operator.
@@ -83,7 +75,7 @@ path in the Read CSV operator.
 | 6 | 4 customer segments (silhouette 0.383): young budget, family road trips, premium, business |
 | 7 | RapidMiner k-means finds the same 4 segments (Davies-Bouldin 1.040 vs 1.041 in Python) |
 | 8, 9 | 34 frequent itemsets, 13 rules in both Python and RapidMiner; strongest: Additional_Driver -> Child_Seat, lift 4.12 |
-| 10 | Six-page dashboard with roll-up, drill-down, slice, dice and pivot on the warehouse |
+| 10 | BlackSpot Miner on 513,801 UK collisions: 804 DBSCAN hotspots, 109 KSI rules, next-year site ranking ROC-AUC 0.764 vs 0.680 for a past-count list |
 
 ## CA Submissions (Group 09)
 
